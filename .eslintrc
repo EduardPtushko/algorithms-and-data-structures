@@ -4,9 +4,7 @@
         "sourceType": "module"
     },
     "extends": ["eslint:recommended", "eslint-config-prettier"],
-    "rules": {
-        "strict": ["error", "never"]
-    },
+
     "env": {
         "browser": true,
         "node": true
@@ -23,7 +21,11 @@
                 "plugin:@typescript-eslint/eslint-recommended",
                 "plugin:@typescript-eslint/recommended",
                 "eslint-config-prettier/@typescript-eslint"
-            ]
+            ],
+            "rules": {
+                "strict": ["error", "never"],
+                "@typescript-eslint/explicit-function-return-type": "off"
+            }
         }
     ]
 }

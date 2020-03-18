@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "target": "es5",
+        "target": "ES2017",
         "lib": ["dom", "dom.iterable", "esnext"],
         "rootDir": "./",
         "allowJs": true,
@@ -9,7 +9,7 @@
         "allowSyntheticDefaultImports": true,
         "strict": true,
         "forceConsistentCasingInFileNames": true,
-        "module": "CommonJS",
+        "module": "commonjs",
         "moduleResolution": "node",
         "resolveJsonModule": true,
         "noEmit": true,
